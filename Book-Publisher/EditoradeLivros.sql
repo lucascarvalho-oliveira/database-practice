@@ -1,5 +1,4 @@
-create database teste;
-create database LucasCarvalho;
+create database book_publisher;
 use LucasCarvalho;
 
 create table editora(
