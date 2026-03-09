@@ -1,5 +1,5 @@
 create database book_publisher;
-use LucasCarvalho;
+use book_publisher;
 
 create table editora(
 cod_editora int auto_increment primary key,
