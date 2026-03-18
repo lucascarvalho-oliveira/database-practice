@@ -7,7 +7,7 @@ nome varchar(45)
 );
 
 CREATE TABLE agencia(
-numero_agencia int not null auto_increment primary key,
+numero_agencia int not null primary key,
 cod_banco int not null,
 endereco varchar(45),
 foreign key fk_cod_banco(cod_banco) references banco(codigo)
